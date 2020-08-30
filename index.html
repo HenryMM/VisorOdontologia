@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+  <title>Simulador</title>
+
+  <style>
+    /* Center the loader */
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 90%;
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 100px;
+      height: 100px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
+    
+    @-webkit-keyframes animatebottom {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes animatebottom { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0; opacity:1 }
+    }
+    
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+
+  <div class="container-fluid">
+
+
+      <div class="row">
+          <div class="col-12 center-block" id="info2">
+            <div class="jumbotron jumbotron-fluid">
+              <blockquote class="blockquote text-center">
+                <p class="mb-2">SIMULADOR DE MORFOLOGÍA DENTAL 3D</p>
+                
+                <footer class="blockquote-footer"> <cite title="Source Title">FACULTAD DE ODONTOLOGÍA </cite></footer>
+                    <footer class="blockquote-footer"> <cite title="Source Title"> FACULTAD DE INGENIERÍA EN CIENCIAS, FíSICAS Y
+                    MATEMÁTICA</cite></footer>
+              </blockquote>
+            </div>
+    
+          </div>
+    
+        </div>
+
+
+    <div class="row">
+      <div class="col-12 center-block" id="info">
+
+        <img src="images/logo.png" class="img-responsive" width="100%" height="100%" style=" position: relative;top: -30%">
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12" id="loader">
+
+
+      </div>
+    </div>
+
+   
+
+  </div>
+
+  <!---->
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Simulador</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pull-rigth" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="btnIncisivoCentral">Incisivo Central</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="btnCanino">Canino</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="btnSegundoPremolar">Segundo Premolar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="btnPrimerPremolar">Primer Premolar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="btnIncisivoLateral">Incisivo Lateral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="btnPrimerMolar">Primer Molar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="btnSegundoMolar">Segundo Molar</a>
+          </li>
+    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" style="font-weight: bold;">Cortes</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="#" id="btnLongitudinal">Longitudinal</a>
+              <a class="dropdown-item" href="#" id="btnTransversal">Transversal</a>
+            </div>
+          </li>
+         
+
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">
+  Acerca de
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">ACERCA DE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>SIMULADOR 3D DE MORFOLOGÍA DENTAL</h5>
+
+        <P class="text-justify">La presente página web fue elaborada por estudiantes de la carrera de Ingeniería en Computación Gráfica
+          de la Universidad Central del Ecuador en colaboración con la facultad de Odontología, bajo la tutoría del
+          Dr. Pedro Almagro Docente de la Facultad de Ingeniería Ciencias Físicas y Matemática.
+        </P>
+        <p><strong>DESARROLLADORES:</strong> </br>Bryan Velasco</br>Henry Moreno
+        </p>
+        <p><strong>COLABORACIÓN:</strong></br><strong>Facultad de Odontología</strong></br>Dra. Blanca Real DECANA </br>Dr. Jorge Naranjo SUBDECANO </br>Dra. Erika Espinoza
+		</br><strong>Facultad de Ciencias Físicas y Matemática</strong></br>Ing. Cecilia Flores Villalva DECANA</br>Ing. Cesar Morales Mejia SUBDECANO</br>Ing. Felipe Borja DIRECTOR DE CARRERA
+        </p>
+        <p><strong>CONTÁCTANOS:</strong> </br>hamoreno@uce.edu.ec</br>brvelasco@uce.edu.ec
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid fondo">
+      <div class="row">
+        <div class="col-8" id="visor">
+
+        </div>
+
+
+        <div class="col-md-4">
+          <div id="accordion">
+            <!-- 01 -->
+
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    ALGUNOS DETALLES IMPORTANTES
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body text-justify" id="detalle" >
+                  La morfología dental es una rama de la odontologia que se encarga del estudio de los factores
+                  anatomicos de los dientes , conociendo su función, forma exterior, posición, dimensión, estructura,
+                  desarrollo y el movimiento de erupción.
+                </div>
+              </div>
+            </div>
+            <!-- 02 -->
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    CARA VESTIBULAR
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body text-justify" id="cara_vestibular">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                  ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <!-- 03 -->
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    CARA lINGUAL
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body text-justify" id="cara_lingual">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                  ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <!-- 04 -->
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    CARA MESIAL
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body text-justify" id="cara_mesial">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                  ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <!-- 04 -->
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                    aria-expanded="false" aria-controls="collapseFive">
+                    CARA DISTAL
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFiive" data-parent="#accordion">
+                <div class="card-body text-justify" id="cara_distal">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                  ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+
+            <!-- 05 -->
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                    aria-expanded="false" aria-controls="collapseSix">
+                    CARA INCISAL
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body text-justify" id="cara_incisal">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                  wolf
+                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                  ea
+                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- SCRIPTS-->
+
+  <!-- PANTALLA DE CARGA-->
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 4000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+      document.getElementById("info").style.display = "none";
+      document.getElementById("info2").style.display = "none";
+    }
+  </script>
+
+  <!-- Library Three js -->
+  <script src="three/three.js"></script>
+  <script src="three/Detector.js"></script>
+  <script src="three/OrbitControls.js"></script>
+  <script src="three/OBJLoader.js"></script>
+  <script src="three/MTLLoader.js"></script>
+
+  <!--Visor-->
+  <script src="app.js"></script>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

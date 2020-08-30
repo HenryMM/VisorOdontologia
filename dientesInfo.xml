@@ -1,0 +1,261 @@
+
+<DIENTES>
+   <!-- DESCRIPCION DEL INSICIVO MAXILAR CENTRAL-->
+   <!-- opcionTexto 0-->
+   
+    <DIENTE>
+        <NOMBRE>INCISIVO_CENTRAL</NOMBRE>
+        
+        <DETALLES>
+            Los incisivos maxilares permanentes son cuatro. Los incisivos centrales están en el centro del maxilar, uno a 
+            cada lado de a línea media, con las respectivas caras mesiales en contacto una con la otra. Los incisivos centrales
+            maxilares y mandibulares son los únicos dientes vecinos de las arcadas dentarias cuya cara mesial está en contacto.
+            Los incisivos laterales maxilares derecho e izquierdo o segundos incisivos quedan distal de los incisivos centrales. 
+        </DETALLES>
+
+        <CARA_VESTIBULAR>
+            La corona media le incisivo central tiene de 10 a 11 mm de longitud, medida desde el punto más alto de la línea
+            cervical hasta el punto más bajo del borde incisal. La distancia mesiodistal tiene una aplitud de 8 a 9 mm en las áreas
+            de contacto. La distancia mesiodistal en el punto en que la corona se une a la raíz es de 1,5 a 2 mm menor. Las crestas
+            de la curvatura mesial y distal de la corona representan las áreas en las que el incisivo central entra en contacto con
+            sus vecinos.
+        </CARA_VESTIBULAR>
+
+        <CARA_LINGUAL>
+            El perfil lingual del incisivo central maxilar es la imagen especular de la cara vestibular. Sin embargo, la
+            cara lingual de la corona es diferente comparada con la superficie de la cara vestibular. En ésta, la superficie 
+            de la corona es generalmente lisa; la cara lingual tiene convexidades y una concavidad. El perfil de la línea
+            cervical es similar, pero inmediatamente por debajo de la línea cervical aparece una ligera convexidad, llamada
+            cíngulo.
+        </CARA_LINGUAL>
+
+        <CARA_MESIAL>
+            La cara mesial de este diente tiene la forma característica de un incisivo. La corona tiene forma de cuña o de 
+            triangulo con la base en el cuello y el vértice en el borde incisal. Normalmente una línea trazada a través de
+            la corona y la raíz por la cara mesial atraviesa a la vez el ápice y el borde incisal de la corona. Por consiguiente
+            el borde incisal queda alineado con el centro de la raíz, de forma característica en los incisivos centrales y laterales
+            maxilares.
+        </CARA_MESIAL>
+
+        <CARA_DISTAL>
+            Existen pocas diferencias entre la cara mesial y la distal. Cuando se observa un incisivo central desde su cara distal,
+            da la impresión de que la corona es más gruesa hacia el borde incisal . Debido a la inclinación de la superficie
+            vestibular distolingualmente, parte de esta superficie se puede ver desde la cara distal; esto crea la ilusión de mayor
+            espesor. En realidad, muchos dientes están ligeramente rotados para adaptarse a la curvatura de la arcada dental. El
+            incisivo central maxilar no es una excepción. La curvatura de la línea cervical que sigue la UAC en la cara distal es menor
+            que en la cara mesial; en muchos dientes ocurre lo mismo.
+        </CARA_DISTAL>
+
+        <CARA_INCISAL>
+            Las ilustraciones de esta cara del diente muestran que el borde incisal está centrado sobre la raíz. Observada
+            desde la cara incisal, la corona queda totalmente superpuesta sobre la raíz, impidiendo su visión.
+            Desde esta superficie, la cara vestibular de la corona es relativamente ancha y plana en comparación con
+            la superficie lingual, especialmente en el tercio incisal. No obstante, la porción cervical de la corona es convexa
+            vestibularmente, si bien el arco que describe es amplio. El borde incisal se puede distinguir claramente, con 
+            una diferenciación entre el borde y la cresta incisal restante, que se inclina hacia lingual.
+        </CARA_INCISAL>
+
+    </DIENTE>
+
+    <!-- DESCRIPCION DEL CANINO MAXILAR-->
+    <!-- opcionTexto 1-->
+    <DIENTE>
+        <NOMBRE>CANINO</NOMBRE>
+        <DETALLES>
+            Los caninos  maxilares y mandibulares guardan una estrecha semejanza y sus funciones son 
+            muy similares. Los cuatro caninos están situados en las esquinas de la boca. El canino es el tercer diente contado
+            a partir de la linea media, a derecha e izquierda, en el maxilar y en la mandibula.
+        </DETALLES>
+
+        <CARA_VESTIBULAR>
+            La corona y la raíz son más estrechas mesiodistalemte que las de los incisivos centrales maxilares.
+            En muchos casos, la diferencia es de 1mm aproximadamente. La linea cervical es convexa, con la convexidad dirigida
+            hacia la raiz.
+            La cara vestibular de la corona es lisa, sin lineas de desarrollo visibles, excepto unas suabes
+            líneas por mesial y distal, que dividen los tres lobulos vestibulares.
+        </CARA_VESTIBULAR>
+
+        <CARA_LINGUAL>
+            La corona y la raiz son más estrechas lingual que vestibularmente. 
+            Desde esta cara, la linea cervical es algo diferente de la que se encuentra vestibularmente y muestra una curvatura
+            más regular. La línea puede mantenerse recta durante un corto trecho.
+            El cíngulo es grande y en ocaciones en forma de pequeña cúspide.
+        </CARA_LINGUAL>
+
+        <CARA_MESIAL>
+            La cara mesial del canino maxilar presenta el perfil de la forma funcional de un diente anterior.
+            Sin embargo, tiene un volumen y la dimensión vestibulolingual es también mayor que en ningún otro diente anterior.
+            El perfil de la corona tiene forma de cuña, el mayor diámetro está en el tercio cervical y el vértice
+            de la cuña se sitúa en la punta de la cuspide.
+        </CARA_MESIAL>
+
+        <CARA_DISTAL>
+            La cara distal del canino maxilar es bastante parecida a la cara mesial, con las siguientes variaciones:
+            la línea cervical se curva menos hacia la cúspide; la cresta marginal distal está más marcada y es más irregular;
+            generalmente existe una mayor concavidad por encima del área de contacto y la depresión de desarrollo en el lado
+            distal está más pronunciada. 
+        </CARA_DISTAL>
+
+        <CARA_INCISAL>
+            La cara incisal del canino maxilar acentúa las proporciones de este diente en sentido vestibulolingual y 
+            mesiodistal. En general, el diámetro vestibulolingual es mayor que el mesiodistal. En ocasiones, las dos medidas
+            son casi iguales; otras veces, la corona es mayor de lo habitual en sentido vestibulolingual.
+        </CARA_INCISAL>
+
+    </DIENTE>
+
+
+    <!-- opcionTexto 2-->
+    <DIENTE>
+        <NOMBRE>SEGUNDO_PREMOLAR</NOMBRE>
+        
+        <DETALLES>
+             Los segundos premolares. Los incisivos centrales están en el centro del maxilar, uno a 
+            cada lado de a línea media, con las respectivas caras mesiales en contacto una con la otra. Los incisivos centrales
+            maxilares y mandibulares son los únicos dientes vecinos de las arcadas dentarias cuya cara mesial está en contacto.
+            Los incisivos laterales maxilares derecho e izquierdo o segundos incisivos quedan distal de los incisivos centrales. 
+        </DETALLES>
+        <CARA_VESTIBULAR>
+            Es muy parecida en tamaño y forma que el primer premolar, aunque en algunas ocasiones es un poco mayor. 
+        </CARA_VESTIBULAR>
+        <CARA_LINGUAL>
+            En esta cara sí hay diferencias importantes en la forma, tamaño y número de cúspides. 
+            Esta cara presenta variantes, ya que en 40% de los casos se pueden encontrar dos cúspides linguales, 
+            en este caso la forma geométrica toma forma trapezoide con base en oclusal. 
+        </CARA_LINGUAL>
+        <CARA_MESIAL>
+            Es de forma trapezoide más aplanada y de mayor superficie que el primero, presenta una ligera concavidad en cervical
+        </CARA_MESIAL>
+        <CARA_DISTAL>
+            Es muy parecida a la cara mesial, pero de mayor convexidad en el tercio oclusal. 
+        </CARA_DISTAL>
+        <CARA_INCISAL></CARA_INCISAL>
+
+    </DIENTE>
+
+    <!-- opcionTexto 3-->
+    <DIENTE>
+        <NOMBRE>PRIMER_PREMOLAR</NOMBRE>
+        <DETALLES>
+            Se denomina diente premolar a cualquier diente que erupciona en el espacio dejado por un molar temporal. 
+            Hay en total 8 premolares, 4 en la mandíbula y 4 en el maxilar, dos a cada lado respectivamente. 
+            Están situados por distal respecto del canino, de forma que el primer premolar está distal al canino, y 
+            distal al primer premolar está el segundo premolar. Están inmediatamente antes de los molares.
+            Son también conocidos por el término bicúspides aunque este término es incorrecto ya que el segundo premolar 
+            inferior tiene 3 cúspides (tricúspide).
+           
+        </DETALLES>
+        <CARA_VESTIBULAR>
+            Forma pentagonal, convexa 
+        </CARA_VESTIBULAR>
+        <CARA_LINGUAL>
+            Casi todo el perfil vestibular puede apreciarse. La cúspide lingual está casi siempre ligeramente 
+            mesial en relación con la línea media de la corona. Las dos mitades del perfil lingual son casi simétricas.
+            Los dos ápices radiculares son visibles. La concavidad mesial se aprecia a lo largo de toda la raíz
+        </CARA_LINGUAL>
+        <CARA_MESIAL>
+            Dos cúspides de prominencia desigual(VL) componen el perfil oclusal del lado mesial. 
+            La cúspide vestibular es netamente mas prominente(en términos de altura) que la lingual.
+            Las “crestas triangulares”, con declive de aprox. 45º, se inclinan desde los ápices cuspideos 
+            hacia el centro de la superficie oclusal. La cresta marginal mesial se encuentra interrumpida por el surco marginal mesial.
+        </CARA_MESIAL>
+        <CARA_DISTAL>
+            Es similar al mesial exceptuando los siguientes rasgos: Del lado distal: Se puede ver una mayor extensión de la superficie oclusal.
+            La continuidad de la cresta marginal distal no está interrumpida por un surco marginal.
+        </CARA_DISTAL>
+        <CARA_INCISAL>
+        
+        </CARA_INCISAL>
+
+    </DIENTE>
+
+    <!-- opcionTexto 4-->
+    <DIENTE>
+        <NOMBRE>INCISIVO_LATERAL</NOMBRE>
+        <DETALLES>
+            Están situados en ambas arcadas dentarias en la zona anterior, a ambos lados de la línea media. 
+            El ser humano tiene 4 incisivos superiores y 4 incisivos inferiores, 2 centrales y 2 laterales en el 
+            maxilar y otros tantos en la mandíbula. 
+        </DETALLES>
+        <CARA_VESTIBULAR>
+
+        </CARA_VESTIBULAR>
+        <CARA_LINGUAL></CARA_LINGUAL>
+        <CARA_MESIAL></CARA_MESIAL>
+        <CARA_DISTAL></CARA_DISTAL>
+        <CARA_INCISAL></CARA_INCISAL>
+
+    </DIENTE>
+
+    <DIENTE>
+        <NOMBRE>PRIMER_MOLAR</NOMBRE>
+        <DETALLES>
+            El primer molar superior tiene una longitud promedio de 21,5 mm. Es el diente más voluminoso y 
+            con una morfología de conductos muy variable. Su edad media de erupción es entre los 6 y 7 años, y su edad media de 
+            calcificación es entre los 9 y 10 años.
+        </DETALLES>
+        <CARA_VESTIBULAR>
+            Tiene forma trapezoidal con la basemayor en oclusal y base menor encervical. Esta cara presenta un 
+            surco que separalas dos cúspides vestibulares y quetermina en un agujero o foseta también conocida como LíneaVestibular u 
+            Oclusovestibular. Su mayor dimensión es MESIO-DISTAL. Menor Dimensión es CERVICO-OCLUSAL.
+        </CARA_VESTIBULAR>
+        <CARA_LINGUAL>
+            Tiene forma trapezoidal conla base mayor en oclusaly base menor en cervical.o Es de menor su 
+            superficie quela cara vestibularo Es convexa de Cervical aOclusal y de mesial a distalo En el 80% 
+            de los casos, eltercio oclusomesial presentauna eminencia llamadao Tubérculo de CarabelliCara Lingual. 
+            Un surco que proviene de lafoseta triangular distal y se dirigeal tercio medio de esta cara y sellama 
+            "Surco oclusolingual".
+        </CARA_LINGUAL>
+        <CARA_MESIAL>
+            La cara mesial de la corona del primer molarsuperior es de forma cuadrilátera, De convexidad 
+            vestibulolingual poconotable, no obstante en el terciooclusovestibular existe una convexidaddonde 
+            se encuentra la zona de contacto quese efectúa con la cara distal del segundopremolar superior. 
+            En el tercio cervical y medio se encuentrauna pequeña depresión o concavidad, quesirve para formar el 
+            espacio interdentario conel segundo premolar y alojar en ese lugar a lapapila gingival. Además, se 
+            ve el pequeño surco que lo separade la cúspide mesiolingual Tubérculo de Carabelli. 
+        </CARA_MESIAL>
+        <CARA_DISTAL>
+            La cara distal de la corona delprimer molar superior es deforma trapezoidal más regulary de menor 
+            tamaño que lacara mesial. Su convexidad es tambiénmás homogénea. La superficie o zona decontacto está 
+            hacia el centrode la superficie y en el terciooclusal. 
+        </CARA_DISTAL>
+        <CARA_INCISAL></CARA_INCISAL>
+
+    </DIENTE>
+
+    <DIENTE>
+        <NOMBRE>SEGUNDO_MOLAR</NOMBRE>
+        <DETALLES>
+             Es más pequeño que el primer molar y más grande que el tercer molar en todas sus dimensiones.
+             Se observan dos cúspides una MV y DV. Un surco único marca la superficie V y separa las dos cúspides. 
+             Las raíces están menos separadas, presentando mayor inclinación distal.
+        </DETALLES>
+        <CARA_VESTIBULAR>
+            Es de forma trapezoide,con base mayor que en oclusa. La superficie es convexa, dividida por el 
+            surco oclusovestibular señaado en su tercio oclusal la presencia de dos cúspides vestibulares; 
+            con frecuencia, la cúspide distovestubular es más ancha que la mesiovestibular, contradiciendo 
+            la generalidad que menciona que las cúspides mesiales son mayores que las distales, aunque es la 
+            más ancha es de menor altura que la mesial.
+        </CARA_VESTIBULAR>
+        <CARA_LINGUAL>
+            Es de forma trapezoide, convexa de cervical a oclusal, es de menor dimensión mesiodistal que la 
+            cara vestibular por la convergencia de las caras proximales, esta cara se encuentra dividida en 
+            el centro en dos porciones por el surco oclusolingual.
+        </CARA_LINGUAL>
+        <CARA_MESIAL>
+             Es más pequeña que la del primer molar inferior, tiene forma romboide, es de superficie poco convexa, 
+             forma ángulos agudos en oclusolingual y vestibulocervical, obtuso en linguocervical y oclusovestibular, 
+             el punto de contacto se encuentra equidistante de vestibular y lingual en el tercio oclusal.
+        </CARA_MESIAL>
+        <CARA_DISTAL>
+            Esta superficie es mayor que la cara distal del primer molar, pero menor que la cara mesial del mismo diente, 
+            ya que no posee el tubérculo distovestibular; por lo tanto del área de contacto está centrada de vestibular a 
+            lingual, de cervical a oclusal. Es muy convexa de vestibular al igual y ligeramente más plana de cervical a oclusal.
+        </CARA_DISTAL>
+        <CARA_INCISAL>
+            
+        </CARA_INCISAL>
+
+    </DIENTE>
+
+</DIENTES>
