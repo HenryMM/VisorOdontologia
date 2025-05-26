@@ -416,7 +416,7 @@ function init() {
     function cargaXML(xml) {
         var xmlDoc = xml.responseXML;
         var dientes = xmlDoc.getElementsByTagName("DIENTE");
-        console.log("opcion texto ",opcionTexto);
+        
         //OBTENEMOS EL TEXTO CORRESPONDIENTE DEL DOCUMENTO XML
         var detalle=dientes[opcionTexto].getElementsByTagName("DETALLES")[0].textContent;
         var cara_vestibular=dientes[opcionTexto].getElementsByTagName("CARA_VESTIBULAR")[0].textContent;
